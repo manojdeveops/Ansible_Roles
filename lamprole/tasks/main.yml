@@ -1,0 +1,6 @@
+---
+ # tasks file for lamprole
+ #
+- include_tasks: httpd.yml
+- include_tasks: php.yml
+- include_tasks: mariadb.yml
